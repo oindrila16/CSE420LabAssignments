@@ -847,8 +847,8 @@ int main(int argc, char *argv[])
 		return 0;
 	}
 	yyin = fopen(argv[1], "r");
-	outlog.open("23341052_log.txt", ios::trunc);
-	errout.open("23341052_error.txt", ios::trunc);
+	outlog.open("log.txt", ios::trunc);
+	errout.open("error.txt", ios::trunc);
 
 	if(yyin == NULL)
 	{
